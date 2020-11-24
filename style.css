@@ -1,5 +1,5 @@
 h1 {
-    color: orange;
+    color: black;
     text-align: center;
     font-size: 50px;
     text-align: center;
@@ -21,13 +21,19 @@ nav  {
     background-attachment: fixed;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
 ul li{
-    margin-top: 10px;
-    border:2px solid black;
+    margin-top: 1px;
+    border:1px solid black;
     border-color: black;
     display: inline;
     font-size: 20px;
-    color: orange;
     
 }
 
@@ -37,10 +43,12 @@ hr {
 
 img {
   float: left;
-  width:  250px;
-  height: 250px;
+  width:  350px;
+  height: 300px;
   background-size: contain;
-  display: inline;
+  border-radius: 8px;
+  display: block;
+ 
 }
 
 .row {
@@ -70,6 +78,7 @@ main {
   main >  p, .browser {
     margin: 10px;
     padding: 10px;
+    font-size: 20px;
   }
   
   .browser {
@@ -81,7 +90,7 @@ main {
     font-size: 90%;
   }
 
-  p 
+  
 
 
   /* Add a hover effect if you want */
@@ -113,10 +122,30 @@ main {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+   
+  }
+
+
+  footer {
+    position: relative;
+    margin-top: -180px;
+    /* negative value of footer height */
+    height: 10px;
+    clear: both;
+    
   }
 
 
 
+ 
+  footer  {
+    margin: 5px;
+    text-decoration: none!important;
+}
 
-  .fadein { position:relative; width:500px; height:332px; }
-.fadein img { position:absolute; left:0; top:0; }
+article {
+    font-size: 40px;
+}
+
+
+  
